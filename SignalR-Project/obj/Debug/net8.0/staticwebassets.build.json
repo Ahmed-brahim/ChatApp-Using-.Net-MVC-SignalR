@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uI3jpIpNBO+h0vvcteqcKZ0zmzOlYfJ9NZPA7KPjDfM=",
+  "Hash": "95FqVhQ8whSqHq/B1/HH72CVBmC9KSt/25/HEcLU/I0=",
   "Source": "SignalR-Project",
   "BasePath": "_content/SignalR-Project",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\Groupicon.png",
+      "SourceId": "SignalR-Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\",
+      "BasePath": "_content/SignalR-Project",
+      "RelativePath": "Groupicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Groupicon.png"
     },
     {
       "Identity": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\js\\site.js",

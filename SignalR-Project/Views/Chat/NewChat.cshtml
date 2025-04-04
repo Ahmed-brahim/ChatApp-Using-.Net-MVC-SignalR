@@ -1,0 +1,32 @@
+﻿@model NewChatViewModel
+@{
+    ViewData["Title"] = "NewChat";
+}
+
+<div class="container mt-5">
+	<div class="row justify-content-center">
+		<div class="col-md-8">
+			<div class="card shadow-sm">
+				<div class="card-header bg-light d-flex align-items-center">
+					<h1 class="mb-0 flex-grow-1">Create a New Chat</h1>
+				</div>
+				<div class="card-body">
+					<form asp-action="NewChat" method="post">
+						<div class="mb-3">
+							<label asp-for="UserEmail" class="form-label">User Email</label>
+							<input asp-for="UserEmail" class="form-control">
+							<span asp-validation-for="UserEmail" class="text-danger"></span>
+						</div>
+						
+						<button type="submit" class="btn btn-primary">Create Chat</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	@section Scripts {
+		<script src="/lib/jquery/dist/jquery.min.js"></script>
+		<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+	}

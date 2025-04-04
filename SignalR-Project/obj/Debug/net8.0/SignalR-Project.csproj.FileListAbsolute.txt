@@ -6,6 +6,7 @@ D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\obj\Debug
 D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\obj\Debug\net8.0\SignalR-Project.MvcApplicationPartsAssemblyInfo.cache
 D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\obj\Debug\net8.0\SignalR-Project.RazorAssemblyInfo.cache
 D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\obj\Debug\net8.0\SignalR-Project.RazorAssemblyInfo.cs
+D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\obj\Debug\net8.0\SignalR-Project.sourcelink.json
 D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\bin\Debug\net8.0\appsettings.Development.json
 D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\bin\Debug\net8.0\appsettings.json
 D:\College\skills\Full Stack\back end\Signal R\Project\SignalR-Project\bin\Debug\net8.0\libman.json

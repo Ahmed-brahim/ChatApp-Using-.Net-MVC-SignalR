@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\DefaultProfilePhoto.webp"
     },
     {
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\Groupicon.png",
+      "PackagePath": "staticwebassets\\Groupicon.png"
+    },
+    {
       "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

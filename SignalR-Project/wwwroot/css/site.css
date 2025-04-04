@@ -7,7 +7,12 @@
     --border-color: #e0e0e0;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.chat-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 html {
     font-size: 14px;
     line-height: 1.5;
@@ -212,3 +217,21 @@ footer {
     color: red;
     margin-left: 5px;
 }
+/* Add this to your site.css or within a style tag in the view */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .card-header h1 {
+        margin-right: 15px;
+    }
+
+    .card-header .btn-group .btn {
+        padding: 0.5rem 1rem;
+    }
+
+        .card-header .btn-group .btn i {
+            margin-right: 5px;
+        }
