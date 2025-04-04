@@ -1,0 +1,214 @@
+/* Base Styles */
+:root {
+    --primary-color: #8a2be2;
+    --secondary-color: #4169e1;
+    --text-primary: #333;
+    --text-secondary: #666;
+    --border-color: #e0e0e0;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+html {
+    font-size: 14px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+    color: var(--text-primary);
+    background-color: #fff;
+}
+
+/* Focus States */
+.btn:focus-visible,
+.form-control:focus-visible,
+.form-check-input:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(138, 43, 226, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Form Elements */
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 2px rgba(138, 43, 226, 0.2);
+    }
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+/* Card Component */
+.card {
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+.card-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+/* Authentication Layout */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #e4e8f0);
+    padding: 20px;
+}
+
+.auth-card {
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+    .auth-card h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+        color: var(--text-primary);
+    }
+
+    .auth-card p {
+        color: var(--text-secondary);
+        margin-bottom: 30px;
+    }
+
+.auth-form .form-group {
+    margin-bottom: 25px;
+}
+
+.auth-form .row {
+    margin-bottom: 25px;
+}
+
+.auth-form .col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Button Styles */
+.btn-signup {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+    .btn-signup:hover {
+        background-color: #7d22c5;
+        transform: translateY(-2px);
+    }
+
+/* Terms and Conditions */
+.terms-text {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 30px;
+    text-align: center;
+}
+
+    .terms-text a {
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .terms-text a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid var(--border-color);
+    z-index: 100;
+}
+
+/* Floating Labels */
+.form-floating > label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 0.6;
+    transform-origin: 0 0;
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    pointer-events: none;
+}
+
+.form-floating > input:focus ~ label,
+.form-floating > input:not(:placeholder-shown) ~ label {
+    opacity: 1;
+    transform: scale(0.85) translateY(-10px) translateX(5px);
+    font-size: 0.9rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .auth-card {
+        margin: 0 20px;
+    }
+
+    .auth-form .row {
+        flex-direction: column;
+    }
+
+    .auth-form .col-md-6 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+/* Required field indicator */
+.form-label.required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
