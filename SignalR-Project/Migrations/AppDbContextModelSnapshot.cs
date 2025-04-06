@@ -324,6 +324,9 @@ namespace SignalR_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("SenderName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("SentAt")
                         .HasColumnType("datetime2");
 

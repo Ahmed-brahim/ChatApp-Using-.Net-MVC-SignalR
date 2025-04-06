@@ -7,7 +7,7 @@ namespace SignalR_Project.Models
     {
         [Key]
         public string Id { get; set; } = Guid.NewGuid().ToString();
-
+        public string? SenderName { get; set; } // Name of the chat group
         public string ChatId { get; set; }
         [ForeignKey("ChatId")]
         public virtual Chat Chat { get; set; }
@@ -32,5 +32,11 @@ namespace SignalR_Project.Models
             DeletedAt = null;
         }
 
+    }
+    public enum MessageStatusEnum
+    {
+        Unread = 1,
+        Delivered = 2,
+        Seen = 3
     }
 }

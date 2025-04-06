@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SignalR_Project.ViewModels.ChatViewModel>
+﻿@model IEnumerable<SignalR_Project.ViewModels.ChatDashBoardViewModel>
 @{
     ViewData["Title"] = "Chat Dashboard";
     Layout = "_ChatLayout";
@@ -16,7 +16,7 @@
 								<i class="fas fa-user-plus"></i> New Chat
 							</button>
 						</a>
-						<a asp-action="NewGroup">
+                        <a asp-action="CreateGroup">
 							<button class="btn btn-primary" >
 								<i class="fas fa-users"></i> New Group
 							</button>
@@ -34,7 +34,7 @@
                         <div class="list-group">
                             @foreach (var chat in Model)
                             {
-                                <a href="@Url.Action("Chat", new { id = chat.Chat_Id })" class="list-group-item list-group-item-action">
+                                <a href="@Url.Action("OpenChat", new { id = chat.Chat_Id })" class="list-group-item list-group-item-action">
                                     <div class="d-flex align-items-center">
                                         <img src="@chat.Chat_Image" alt="@chat.Chat_Name" class="rounded-circle me-3" width="40" height="40">
                                         <div class="flex-grow-1">

@@ -26,7 +26,7 @@ namespace SignalR_Project
                 .AddEntityFrameworkStores<AppDbContext>();
 
             builder.Services.AddDbContext<AppDbContext>(
-                options => options.UseSqlServer(builder.Configuration.GetConnectionString("Cs"))
+                options => options.UseSqlServer(builder.Configuration.GetConnectionString("server"))
                 .AddInterceptors(new SoftDeleteInterceptor()) // Add the interceptor to the DbContext
                 );
             var app = builder.Build();

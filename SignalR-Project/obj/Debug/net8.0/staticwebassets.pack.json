@@ -9,16 +9,40 @@
       "PackagePath": "staticwebassets\\DefaultProfilePhoto.webp"
     },
     {
-      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\Groupicon.png",
-      "PackagePath": "staticwebassets\\Groupicon.png"
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\GroupIcon.png",
+      "PackagePath": "staticwebassets\\GroupIcon.png"
     },
     {
       "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\images\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\images\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\images\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\images\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\images\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\images\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\images\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\images\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\images\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\images\\site.webmanifest",
+      "PackagePath": "staticwebassets\\images\\site.webmanifest"
     },
     {
       "Id": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\js\\site.js",
