@@ -19,6 +19,14 @@ namespace SignalR_Project.Hubs
         public async Task JoinChatGroup(string chatid)
         {
             var UserId = Context.User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var messages = _context.Messages
+                .Where(m => (m.ChatId == chatid) && (m.SenderId!= UserId))
+                .ToList();
+            foreach (var message in messages)
+            {
+                message.StatusId = (int)MessageStatusEnum.Seen;
+            }
+            _context.SaveChanges();
             if (_context.ChatParticipants.Any(p => (p.UserId == UserId) && (chatid == p.ChatId)))
             {
                 await Groups.AddToGroupAsync(Context.ConnectionId, chatid);

@@ -37,18 +37,28 @@ namespace SignalR_Project.Controllers
             var user = _userManager.Users.FirstOrDefault(u => u.Id == userId);
             if (user != null)
             {
-                var Userchats = _context.Chats.Include(c => c.Participants).ThenInclude(p => p.User).Where(c => c.Participants.Any(p => p.UserId == userId)).ToList();
+                var Userchats = _context.Chats.Include(c => c.Participants).ThenInclude(p => p.User).Include(c => c.Messages).Where(c => c.Participants.Any(p => p.UserId == userId)).ToList();
                 foreach (var chat in Userchats)
                 {
                     var lastMessage = chat.Messages.OrderByDescending(m => m.SentAt).FirstOrDefault();
                     var UnreadCount = chat.Messages.Count(m => (m.ChatId == chat.Id) && (m.SenderId != user.Id) && (m.StatusId != (int)MessageStatusEnum.Seen));//status id = 3 means seen
+                    var chatparticipants = chat.Participants.ToList();
                     string chatName = string.Empty;
                     if (chat.IsGroupChat)
                     {
                         chatName = chat.Name;
                     }
                     else {
-                        chatName = chat.Participants.FirstOrDefault(p => p.UserId != user.Id)?.User?.FirstName + " " + chat.Participants.FirstOrDefault(p => p.UserId != user.Id)?.User?.LastName;
+                        if (!chatparticipants.Any(p => p.UserId != userId))
+                        {
+                            chatName = chat.Name;
+                        }
+                        else
+                        {
+                            chatName = chat.IsGroupChat ? chat.Name : chat.Participants.FirstOrDefault(p => p.UserId != userId)?.User?.FirstName + " " + chat.Participants.FirstOrDefault(p => p.UserId != userId)?.User?.LastName;
+
+                        }
+                        //chatName = chat.Participants.FirstOrDefault(p => p.UserId != user.Id)?.User?.FirstName + " " + chat.Participants.FirstOrDefault(p => p.UserId != user.Id)?.User?.LastName;
                      }
                     chatsViewModel.Add(new ChatDashBoardViewModel
                     {
@@ -91,7 +101,14 @@ namespace SignalR_Project.Controllers
 
                 //create a new chat
                 var chat = new Chat();
-                chat.Name = recipientUser.FirstName + (recipientUser.LastName?? " ");
+                if (userId == recipientUser.Id)
+                {
+                    chat.Name = user.FirstName +" "+ "(ME)";
+                }
+                else
+                {
+                    chat.Name = recipientUser.FirstName +" "+ (recipientUser.LastName ?? " ");
+                }
                 chat.IsGroupChat = false;
                 //create new participants to store in database and add them to chat
                 var participant1 = new ChatParticipant
@@ -171,10 +188,29 @@ namespace SignalR_Project.Controllers
                 var model = new ChatViewModel();
                 var chat = _context.Chats.Include(c => c.Participants).ThenInclude(p => p.User)
                                             .Include(c=> c.Messages).FirstOrDefault(c => c.Id == id);
+                var chatparticipants = chat.Participants.ToList();
+                string chatName = string.Empty;
+                if (!chat.IsGroupChat)
+                {
+                    if (!chatparticipants.Any(p => p.UserId != userId))
+                    {
+                        chatName = chat.Name;
+                    }
+                    else
+                    {
+                        chatName = chat.IsGroupChat ? chat.Name : chat.Participants.FirstOrDefault(p => p.UserId != userId)?.User?.FirstName + " " + chat.Participants.FirstOrDefault(p => p.UserId != userId)?.User?.LastName;
+
+                    }
+                }
+                else
+                {
+                    chatName = chat.IsGroupChat ? chat.Name : chat.Participants.FirstOrDefault(p => p.UserId != userId)?.User?.FirstName + " " + chat.Participants.FirstOrDefault(p => p.UserId != userId)?.User?.LastName;
+
+                }
+                model.Chat_Image = chat.IsGroupChat ? "/Groupicon.png" : "/DefaultProfilePhoto.webp"; // Placeholder for chat image
                 model.Chat_Id = chat.Id;
                 model.IsGroupChat = chat.IsGroupChat;
-                model.Chat_Name = chat.IsGroupChat ? chat.Name : chat.Participants.FirstOrDefault(p => p.UserId != User.FindFirstValue(ClaimTypes.NameIdentifier))?.User?.FirstName + " " + chat.Participants.FirstOrDefault(p => p.UserId != User.FindFirstValue(ClaimTypes.NameIdentifier))?.User?.LastName;
-                model.Chat_Image = chat.IsGroupChat ? "/GroupIcon.png" : "/DefaultProfilePhoto.webp";
+                model.Chat_Name = chatName;
                 model.Messages = chat.Messages.Select(m => new MessageViewModel2
                 {
                     Id = m.Id,
@@ -376,14 +412,16 @@ namespace SignalR_Project.Controllers
         [HttpGet]
 		public IActionResult UserEmailCheck(string UserEmail)
 		{
-			var User = _userManager.Users.FirstOrDefault(u => (u.Email == UserEmail) && (u.IsDeleted != true));
-			if (User == null)
+			var ChatUser = _userManager.Users.FirstOrDefault(u => (u.Email == UserEmail) && (u.IsDeleted != true));
+            if (ChatUser == null)
 			{
 				return Json(false);
 			}
 			else
 			{
-				bool IsChatExist = _context.Chats.Any(c => c.Participants.Any(p => p.UserId == User.Id));
+               var CurrentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                bool IsChatExist = _context.Chats.Where(c => c.IsGroupChat == false).Any(c => c.Participants.Any(p => p.UserId == ChatUser.Id) && (c.Participants.Any(p => p.UserId == CurrentUserId)));
+				//bool IsChatExist = _context.Chats.Include(c => c.Participants).Any(c => c.Participants.Any(p => p.UserId == User.Id));
 				if (IsChatExist)
 				{
 					return Json(false);
@@ -394,7 +432,6 @@ namespace SignalR_Project.Controllers
 				}
 			}
 		}
-        [HttpGet]
         [HttpGet]
         public IActionResult UserEmailCheckForGroup(string userEmail)
         {

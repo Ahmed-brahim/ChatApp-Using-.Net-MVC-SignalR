@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\views\\shared\\_chatlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\views\\shared\\_chatlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\views\\chat\\openchat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,8 +15,24 @@
       "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\viewmodels\\newchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\viewmodels\\newchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\views\\shared\\_chatlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\views\\shared\\_chatlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\models\\chatparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\viewmodels\\newchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|solutionrelative:signalr-project\\viewmodels\\newchatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED0133B8-6415-4BB5-B940-FC91FAE0BFD8}|SignalR-Project\\SignalR-Project.csproj|d:\\college\\skills\\full stack\\back end\\signal r\\project\\signalr-project\\views\\chat\\newchat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -174,31 +174,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "SignalR-Project\\Controllers\\ChatController.cs",
-              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "SignalR-Project\\Controllers\\ChatController.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAYwLgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:16:41.46Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "OpenChat.cshtml",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Views\\Chat\\OpenChat.cshtml",
               "RelativeDocumentMoniker": "SignalR-Project\\Views\\Chat\\OpenChat.cshtml",
               "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Views\\Chat\\OpenChat.cshtml",
               "RelativeToolTip": "SignalR-Project\\Views\\Chat\\OpenChat.cshtml",
-              "ViewState": "AQIAAJwBAAAAAAAAAAAAAKUBAAABAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAMgAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-05T21:29:20.252Z",
               "IsPinned": true,
@@ -206,13 +192,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\Hubs\\ChatHub.cs",
               "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "SignalR-Project\\Hubs\\ChatHub.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAD4vzoAAAAXAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T12:55:32.246Z",
               "IsPinned": true,
@@ -221,6 +207,95 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "SignalR-Project\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "SignalR-Project\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAvwD4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:16:41.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SignalR-Project\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SignalR-Project\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAIEBAAAAAAAAAAAAAIoBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-16T11:01:21.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\appsettings.json",
+              "RelativeDocumentMoniker": "SignalR-Project\\appsettings.json",
+              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\appsettings.json",
+              "RelativeToolTip": "SignalR-Project\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T10:06:46.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Program.cs",
+              "RelativeDocumentMoniker": "SignalR-Project\\Program.cs",
+              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Program.cs",
+              "RelativeToolTip": "SignalR-Project\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:23:51.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SignalR-Project\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SignalR-Project\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwE8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:07:09.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "SignalR-Project\\ViewModels\\ChatViewModel.cs",
+              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\ChatViewModel.cs",
+              "RelativeToolTip": "SignalR-Project\\ViewModels\\ChatViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T21:36:29.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewChatViewModel.cs",
+              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\NewChatViewModel.cs",
+              "RelativeDocumentMoniker": "SignalR-Project\\ViewModels\\NewChatViewModel.cs",
+              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\NewChatViewModel.cs",
+              "RelativeToolTip": "SignalR-Project\\ViewModels\\NewChatViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:03:58.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_ChatLayout.cshtml",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Views\\Shared\\_ChatLayout.cshtml",
               "RelativeDocumentMoniker": "SignalR-Project\\Views\\Shared\\_ChatLayout.cshtml",
@@ -234,71 +309,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "SignalR-Project\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "SignalR-Project\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAIEBAAAAAAAAAAAAAIoBAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-16T11:01:21.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\appsettings.json",
-              "RelativeDocumentMoniker": "SignalR-Project\\appsettings.json",
-              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\appsettings.json",
-              "RelativeToolTip": "SignalR-Project\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T10:06:46.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Program.cs",
-              "RelativeDocumentMoniker": "SignalR-Project\\Program.cs",
-              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Program.cs",
-              "RelativeToolTip": "SignalR-Project\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBwAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:23:51.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SignalR-Project\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SignalR-Project\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwE8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:07:09.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChatViewModel.cs",
-              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\ChatViewModel.cs",
-              "RelativeDocumentMoniker": "SignalR-Project\\ViewModels\\ChatViewModel.cs",
-              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\ChatViewModel.cs",
-              "RelativeToolTip": "SignalR-Project\\ViewModels\\ChatViewModel.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T21:36:29.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ChatParticipant.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Models\\ChatParticipant.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\Models\\ChatParticipant.cs",
@@ -311,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Chat2.cshtml",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Views\\Chat\\Chat2.cshtml",
               "RelativeDocumentMoniker": "SignalR-Project\\Views\\Chat\\Chat2.cshtml",
@@ -336,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MessageStatusConfig.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Models\\Data\\Config\\MessageStatusConfig.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\Models\\Data\\Config\\MessageStatusConfig.cs",
@@ -348,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Models\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\Models\\Data\\AppDbContext.cs",
@@ -360,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Message.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Models\\Message.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\Models\\Message.cs",
@@ -373,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "SignalR-Project\\Views\\Chat\\Index.cshtml",
@@ -385,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ChatDashBoardViewModel.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\ChatDashBoardViewModel.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\ViewModels\\ChatDashBoardViewModel.cs",
@@ -398,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MessageViewModel.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\MessageViewModel.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\ViewModels\\MessageViewModel.cs",
@@ -411,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Chat.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Models\\Chat.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\Models\\Chat.cs",
@@ -424,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CreateGroup.cshtml",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Views\\Chat\\CreateGroup.cshtml",
               "RelativeDocumentMoniker": "SignalR-Project\\Views\\Chat\\CreateGroup.cshtml",
@@ -436,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "NewGroupViewModel.cs",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\NewGroupViewModel.cs",
               "RelativeDocumentMoniker": "SignalR-Project\\ViewModels\\NewGroupViewModel.cs",
@@ -449,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "SignalR-Project\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -458,19 +468,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-20T13:12:43.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "NewChatViewModel.cs",
-              "DocumentMoniker": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\NewChatViewModel.cs",
-              "RelativeDocumentMoniker": "SignalR-Project\\ViewModels\\NewChatViewModel.cs",
-              "ToolTip": "D:\\College\\skills\\Full Stack\\back end\\Signal R\\Project\\SignalR-Project\\ViewModels\\NewChatViewModel.cs",
-              "RelativeToolTip": "SignalR-Project\\ViewModels\\NewChatViewModel.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:03:58.916Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

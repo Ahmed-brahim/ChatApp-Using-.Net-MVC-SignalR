@@ -49,9 +49,10 @@
                 {
                     <div class="message-card @(message.SenderId == User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value ? "sent-message" : "received-message")" id="message-@message.Id">
                         <strong>@message.SenderName</strong>: @message.Text
-                        <small class="d-block text-muted">@message.TimeSent.ToString("HH:mm")</small>
+                        <small class="d-block text-muted">@message.TimeSent.ToString()</small>  @*"HH:mm"*@
                     </div>
                 }
+
                 <!-- Empty div for scrolling reference with padding -->
                 <div id="messagesEnd"></div>
             </div>
@@ -197,8 +198,11 @@
 
             messageElement.innerHTML = `
                 <strong>${senderName}</strong>: ${message}
-                <small class="d-block text-muted">${new Date().toLocaleTimeString()}</small>
+                <small class="d-block text-muted">${new Date().toLocaleString()}</small>
             `;
+
+
+            @************************************toLocaleString()********toLocaleTimeString()***********************@
 
             // Insert the message before the messagesEnd element
             const messagesEnd = document.getElementById("messagesEnd");
