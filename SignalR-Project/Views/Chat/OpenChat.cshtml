@@ -426,7 +426,7 @@
         connection.on("ParticipantLeft", (participantId, participantName) => {
             // Remove the participant from the list
             const participantsList = document.querySelector('.participants-list');
-            
+            console.log(`${participantName} has left the group`);
             // Find the participant in the list
             const existingParticipant = Array.from(participantsList.children).find(li => 
                 li.querySelector('span').textContent === participantName

@@ -320,7 +320,7 @@ namespace SignalR_Project.Controllers
                     await _hubContext.Clients.Group(chatId).SendAsync(
                         "ParticipantJoined",
                         userId,
-                        user.UserName,
+                        user?.FirstName + " " + user?.LastName ?? "A participant",
                         user.image ?? "/placeholder.svg?height=30&width=30"
                     );
                 }
@@ -331,7 +331,7 @@ namespace SignalR_Project.Controllers
             {
                 await _context.SaveChangesAsync();
             }
-
+            Console.WriteLine("||||||||||||||||||||Participants added successfully|||||||||||||||||||||||||");
             return RedirectToAction("OpenChat", new { id = chatId });
         }
 
@@ -391,8 +391,8 @@ namespace SignalR_Project.Controllers
 
             // Get user details for notification before removing
             var user = await _userManager.FindByIdAsync(userId);
-            var userName = user?.UserName ?? "A participant";
-
+            //var userName = user?.UserName ?? "A participant";
+            var userName = user?.FirstName +" "+user?.LastName ?? "A participant";
             // Remove the participant
             _context.ChatParticipants.Remove(participant);
             await _context.SaveChangesAsync();
